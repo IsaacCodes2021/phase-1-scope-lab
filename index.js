@@ -6,7 +6,7 @@ console.log("test 1: " + customerName)
 
 //2
 function upperCaseCustomerName() {
-    return customerName.toUpperCase()
+    customerName.toUpperCase()
 }
 console.log("test 2: " + upperCaseCustomerName())
 
@@ -28,7 +28,7 @@ console.log("test 4: " + overwriteBestCustomer('maybe bob'))
 
 //5 
 const leastFavoriteCustomer = "definetly bob"
-console.log("test 5: " + leastFavotriteCustomer)
+console.log("test 5: " + leastFavoriteCustomer)
 function changeLeastFavoriteCustomer() {
     //leastFavotriteCustomer = 'uncertianly bob'
     leastFavoriteCustomer = 'uncertianly bob'
